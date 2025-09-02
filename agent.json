@@ -1,0 +1,25 @@
+{
+  "name": "Uomi Agent Test",
+  "version": "1.0.0",
+  "description": "A simple test agent for the Uomi Network, demonstrating basic setup and deployment.",
+  "author": "ichanay3",
+  "license": "MIT",
+  "agent": {
+    "type": "AI Agent",
+    "category": "Utility",
+    "tags": ["testnet", "agent", "uomi"],
+    "capabilities": [
+      "respond_to_user",
+      "basic_decision_making",
+      "data_logging"
+    ]
+  },
+  "deployment": {
+    "network": "Uomi Testnet",
+    "requirements": {
+      "min_tokens": 100,
+      "runtime": "nodejs-18"
+    },
+    "status": "ready"
+  }
+}
